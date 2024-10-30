@@ -5,7 +5,7 @@ fruits_list=['apple','mango','banana','orange','papaya','watermelon','strawberry
 random_fruit=random.choice(fruits_list)
 length=len(random_fruit)
 empty_spaces=[]
-print(random_fruit)
+# print(random_fruit)
 for i in range(length):
     empty_spaces+=['_']
 print("This is a Fruit Guessing Game, there are various Fruits and you have to guess the one which the Computer chose")
