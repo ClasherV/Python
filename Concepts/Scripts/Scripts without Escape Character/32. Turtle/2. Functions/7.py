@@ -1,0 +1,10 @@
+import turtle
+turtle.shape("square")
+turtle.bk(100)
+turtle.right(90)
+turtle.bk(100)
+turtle.rt(90)
+turtle.bk(100)
+turtle.rt(90)
+turtle.bk(100)
+turtle.mainloop()

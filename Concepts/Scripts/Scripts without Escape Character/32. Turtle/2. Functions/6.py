@@ -1,0 +1,10 @@
+import turtle
+turtle.shape("arrow")
+turtle.fd(100)
+turtle.left(90)
+turtle.fd(100)
+turtle.lt(90)
+turtle.fd(100)
+turtle.lt(90)
+turtle.fd(100)
+turtle.mainloop()
