@@ -6,7 +6,7 @@ gullu=Turtle()
 gulluScreen=Screen()
 gulluScreen.bgcolor("black")
 gullu.shape("turtle")
-gullu.speed("fast")
+gullu.speed("fastest")
 while True:
     r=random.randint(0,255)
     g=random.randint(0,255)
