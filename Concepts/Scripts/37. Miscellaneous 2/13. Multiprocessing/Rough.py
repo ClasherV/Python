@@ -1,0 +1,1 @@
+print('%d is Prime: %s'%(5,10))
