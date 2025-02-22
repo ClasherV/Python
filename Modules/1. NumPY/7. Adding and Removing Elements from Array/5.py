@@ -3,7 +3,7 @@ a=np.array([[10,20],[30,40]])
 for i in range(3):
     for j in range(3):
         print(i,j)
-        print(np.insert(a,[i,j],[50],axis=1))
+        print(np.insert(a,[i,j],[50,60],axis=1))
         print()
 
 """
