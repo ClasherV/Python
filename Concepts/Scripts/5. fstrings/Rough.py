@@ -1,1 +1,2 @@
-print("Logical Error!!")
+int=10
+print(int)
