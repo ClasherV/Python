@@ -1,0 +1,9 @@
+a,b=10,5
+print(bin(a),bin(b))
+a=a^b
+print(bin(a),bin(b))
+b=a^b
+print(bin(a),bin(b))
+a=a^b
+print(bin(a),bin(b))
+print(a,b)

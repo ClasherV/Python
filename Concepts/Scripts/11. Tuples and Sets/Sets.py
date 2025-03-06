@@ -1,0 +1,12 @@
+set={10,3.5,'Jenny',True,10}
+print(set)
+set.add(15)
+print(set)
+set.remove(15)
+print(set)
+print(set.pop())
+print(set)
+set.discard(12)
+print(set)
+set.clear()
+print(set)

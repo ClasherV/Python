@@ -1,0 +1,11 @@
+import turtle
+s1=turtle.Screen()
+turtle.shape("turtle")
+turtle.fd(100)
+turtle.left(90)
+turtle.fd(100)
+turtle.lt(90)
+turtle.fd(100)
+turtle.lt(90)
+turtle.fd(100)
+s1.exitonclick()
