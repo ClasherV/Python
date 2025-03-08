@@ -1,4 +1,4 @@
-from dDataBase import DB, app
+from app import DB, app
 with app.app_context():
     # DB.drop_all()
     DB.create_all()
