@@ -1,0 +1,1 @@
+"Explain [concept] by showing how it's used at FAANG-level companies. Then, give me a scenario where I'd need to use it in a startup vs a big company."

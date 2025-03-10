@@ -1,0 +1,1 @@
+"Explain [concept] like I'm 5, like I'm a college student, and like I'm an industry expert. Then compare it to how it's actually used in real-world codebases."
