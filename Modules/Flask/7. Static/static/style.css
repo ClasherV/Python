@@ -1,0 +1,17 @@
+div{
+    background-color:blueviolet;
+    text-align: center;
+}
+
+#name{
+    color:red;
+}
+
+#age{
+    color:blue;
+}
+
+#submit{
+    color:green;
+    background-color: bisque;
+}

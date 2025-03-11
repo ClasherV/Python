@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marks</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='style.css')}}">
+</head>
+<body>
+    <form action="/result" method="post">
+        <p>Name: <input type="text" name="Name" placeholder="Enter Your Name"></p>
+        <p>Enter Your Marks below:</p>
+        <p>Physics: <input type="text" name="Physics" placeholder="Physics"></p>
+        <p>Chemistry: <input type="text" name="Chemistry" placeholder="Chemistry"></p>
+        <p>Maths: <input type="text" name="Maths" placeholder="Maths"></p>
+        <p><input type="submit" value="Submit"></p>
+    </form>
+</body>
+</html>
