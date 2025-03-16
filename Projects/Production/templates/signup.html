@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign Up Page</title>
+        <link rel="stylesheet" href ="{{url_for('static',filename='signup_style.css')}}">
+        <br>
+    </head>
+    <body>
+        <div>
+            <form action="/bot" method="post">
+                <div class="welcome-text">Welcome to <span>FinBot</span></div>
+                <br>    
+                <div class="signup-container">
+                    <h2>Sign Up</h2>
+                    <input type="text" placeholder="Email address" name="email" required>
+                    <input type="password" placeholder="Password" name="password" required>
+                    <br>
+                    <button type="submit" value="signup">Sign Up</button>
+                    <label class="checkbox">
+                        <input type="checkbox"> Remember Password
+                    </label>
+                </form>
+                    <div class="footer-links">
+                        Already have an account?<a href="{{url_for('Login')}}"> Login here</a>
+                    </div>
+                </div>
+        </div>        
+    </body>
+</html>

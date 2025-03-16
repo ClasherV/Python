@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FinBot - Chat</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <nav>
+        <div class="logo">FinBot</div>
+    </nav>
+
+    <div class="chat-container">
+        <div class="chat-box">
+            {% for sender, message in chat_history %}
+                <div class="{% if sender == 'You' %}user-message{% else %}bot-response{% endif %}">
+                    <strong>{{ sender }}:</strong> {{ message }}
+                </div>
+            {% endfor %}
+        </div>
+
+        <form method="POST">
+            <input type="text" name="query" placeholder="Type your message..." autocomplete="off" required>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+</body>
+</html>

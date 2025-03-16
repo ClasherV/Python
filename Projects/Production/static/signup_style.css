@@ -1,0 +1,102 @@
+/* Body styling */
+body {
+    background-image: url("Login.webp");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Welcome text */
+.welcome-text {
+    position: absolute;
+    top: 80px;
+    left: 200px;
+    font-size: 52px;
+    font-weight: bold;
+    color: #4A90E2;
+    font-family: 'Roboto', sans-serif;
+}
+
+.welcome-text span {
+    color: #357ABD; /* Different color for 'FinBot' */
+}
+
+/* Container for the signup form */
+.signup-container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(66, 59, 59, 0.1);
+    padding: 30px;
+    width: 350px;
+    height: 70%;
+    text-align: center;
+    position: relative;
+    margin-left: 650px;
+}
+
+/* Header */
+h2 {
+    text-align: center;
+    color: #4A90E2;
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Input fields */
+input[type="text"],
+input[type="password"] {
+    width: 300px;
+    height: 50px;
+    border-radius: 32.8px;
+    padding: 5px 15px; /* Reduced padding to bring text closer to the box */
+    margin-bottom: 10px; /* Reduced gap between fields */
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+/* Signup button */
+button {
+    background-color: #4A90E2;
+    color: white;
+    padding: 10px;
+    height: 60px;
+    width: 100%;
+    border: none;
+    border-radius: 30px; /* Increased border-radius for more rounded edges */
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 30px; /* Increased gap between password field and signup button */
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #357ABD;
+}
+
+/* Checkbox */
+.checkbox {
+    margin-top: 10px;
+    text-align: left;
+    font-size: 14px;
+    display: block;
+    padding-left: 10px;
+}
+
+/* Footer links */
+.footer-links {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.footer-links a {
+    color: #4A90E2;
+    text-decoration: none;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login Page</title>
+        <link rel="stylesheet" href="{{url_for('static',filename='login_style.css')}}">
+    </head>
+<!-- 
+<body>
+    <div class="welcome-text">Welcome to <span>FinBot</span></div>
+    <div class="login-container">
+        <h2>Login</h2>
+        <form action="/bot" method="post">
+            <input type="text" placeholder="Username" name="username" required autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+            <input type="password" placeholder="Password" name="password" required autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+            <button type="submit" value="login">Login</button>
+            <label class="checkbox">
+                <input type="checkbox"> Remember Password
+            </label>
+        </form>
+        <div class="footer-links">
+            Don't have an account? <a href="{{url_for('SignUp')}}">Sign up</a>
+        </div>
+    </div>
+</body>
+</html> -->
+
+<body>
+    <div class="welcome-text">Welcome to <span>FinBot</span></div>
+    <div class="login-container">
+        <h2>Login</h2>
+
+        <!-- Show error message if login fails -->
+        {% if error %}
+        <p style="color: red;">{{ error }}</p>
+        {% endif %}
+
+        <form action="/bot" method="post">
+            <input type="text" placeholder="Username" name="username" required autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+            <input type="password" placeholder="Password" name="password" required autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+            <button type="submit" value="login">Login</button>
+        </form>
+
+        <label class="checkbox">
+            <input type="checkbox"> Remember Password
+        </label>
+
+        <div class="footer-links">
+            Don't have an account? <a href="{{ url_for('SignUp') }}">Sign up</a>
+        </div>
+    </div>
+</body>

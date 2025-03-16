@@ -1,0 +1,45 @@
+body {
+    overflow: hidden; /* This will prevent scrolling */
+}
+
+body {
+    background-image: url("bgf.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+h1{
+    position: absolute;
+    top: 10px;
+    text-align: center;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 80px;
+    margin: 10px;
+}
+p{
+    position: absolute;
+    bottom: 30px;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    margin: 10px;  
+}
+button {
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.container {
+    position: absolute;
+    top: 55%; /* Adjust this value to match the laptop position */
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
