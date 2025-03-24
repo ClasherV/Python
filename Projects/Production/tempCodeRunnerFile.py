@@ -1,1 +1,0 @@
-    if request.method=='POST':
