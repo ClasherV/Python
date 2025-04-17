@@ -45,6 +45,12 @@ def home():
     """Render the home page."""
     return render_template('home.html')
 
+@app.route('/faq', methods=['GET','POST'])
+def faq():
+    if request.method=='POST':
+        return render_template('ChatBot.html')
+    return render_template('faq.html')
+
 @app.route('/login', methods=['GET', 'POST'])
 def login():
     """
