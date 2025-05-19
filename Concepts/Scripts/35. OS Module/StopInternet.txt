@@ -1,0 +1,8 @@
+Stop:
+    Save the following command in a bat file:
+        @echo off
+        ipconfig/release
+
+Fix:
+    Type the following command in cmd:
+        ipconfig/renew

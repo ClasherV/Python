@@ -22,6 +22,7 @@ else:
 
 if pizza_size=='S' or pizza_size=='s' or pizza_size=='M' or pizza_size=='m' or pizza_size=='L' or pizza_size=='l':
         if pizza_size=='S' or pizza_size=='s':
+            pass
         if pizza_size=='M' or pizza_size=='m':
             bill+=50
         if pizza_size=='L' or pizza_size=='l':
