@@ -1,4 +1,5 @@
 import keyword as key
+print(type(key))
 help(key)
 print()
 print("All Components of Keyword Module:",key.__all__)
@@ -16,7 +17,8 @@ print()
 print(key.issoftkeyword("case"))
 
 """
-O/p: Help on module keyword:
+O/p: <class 'module'>
+     Help on module keyword:
      
      NAME
          keyword - Keywords (from "Grammar/python.gram")
