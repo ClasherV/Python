@@ -1,0 +1,2 @@
+Type a Code in Notepad and save with .py extension
+Open CMD--->python filename.py
