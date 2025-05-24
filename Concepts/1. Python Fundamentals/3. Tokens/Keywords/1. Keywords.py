@@ -1,24 +1,8 @@
-import keyword as key
-print(type(key))
-help(key)
-print()
-print("All Components of Keyword Module:",key.__all__)
-print()
-print("List of Keywords:",key.kwlist)
-print()
-print("Number of Keywords:",len(key.kwlist))
-print()
-print("List of Soft Keywords:",key.softkwlist)
-print()
-print("Number of Soft Keywords:",len(key.softkwlist))
-print()
-print(key.iskeyword("if"))
-print()
-print(key.issoftkeyword("case"))
+import keyword
+help(keyword)
 
 """
-O/p: <class 'module'>
-     Help on module keyword:
+O/p: Help on module keyword:
      
      NAME
          keyword - Keywords (from "Grammar/python.gram")
@@ -58,20 +42,4 @@ O/p: <class 'module'>
          d:\programming\python\python\interpreter\lib\keyword.py
      
      
-     
-     All Components of Keyword Module: ['iskeyword', 'issoftkeyword', 'kwlist', 'softkwlist']
-     
-     List of Keywords: ['False', 'None', 'True', 'and', 'as', 'assert', 'async', 'await', 'break', 'class', 
-    'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 'if', 'import', 
-    'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']  
-     
-     Number of Keywords: 35
-     
-     List of Soft Keywords: ['_', 'case', 'match', 'type']
-     
-     Number of Soft Keywords: 4
-     
-     True
-     
-     True
 """
