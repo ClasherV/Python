@@ -1,1 +1,0 @@
-"I want to master [topic]. Generate 10 problems: 3 warm-ups, 3 mid-level, 3 brutal ones, and one 'WTF, how do I even start?' problem. Give me hints but no full solutions unless I ask."

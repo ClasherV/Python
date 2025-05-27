@@ -1,1 +1,0 @@
-"Here's my messy code: [paste code]. Rip it apart like a savage senior dev in a code review. Tell me why it sucks and how to fix it."

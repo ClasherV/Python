@@ -1,1 +1,0 @@
-"Here's a piece of my old code: [paste code]. Roast it. Tell me why it's inefficient, insecure, or just plain dumb. Then, rewrite it in the cleanest, most optimized way possible."

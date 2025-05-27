@@ -1,1 +1,0 @@
-"I wrote this function: [paste code]. Judge it like a hardcore interviewer. What would make it cleaner, faste, and bulletproof for production use?"

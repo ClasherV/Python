@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ToDo Scheduler</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f0f2f5;
+    }
+
+    header {
+      background: #4CAF50;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
+    }
+
+    .form-container {
+      background: white;
+      padding: 1rem 2rem;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      margin-bottom: 2rem;
+      width: 100%;
+      max-width: 500px;
+    }
+
+    .form-container input[type="text"] {
+      width: 80%;
+      padding: 10px;
+      margin-right: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .form-container button {
+      padding: 10px 15px;
+      background: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .task-table {
+      width: 100%;
+      max-width: 500px;
+      border-collapse: collapse;
+    }
+
+    .task-table th, .task-table td {
+      border: 1px solid #ddd;
+      padding: 10px;
+    }
+
+    .task-table th {
+      background-color: #4CAF50;
+      color: white;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #ddd;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>ToDo App</h1>
+  </header>
+
+  <div class="container">
+
+    <div class="form-container">
+      <h2>Add Task</h2>
+      <form>
+        <input type="text" placeholder="Enter task..." />
+        <button type="submit">Add</button>
+      </form>
+    </div>
+
+    <section>
+      <h2>Your Tasks</h2>
+      <table class="task-table">
+        <thead>
+          <tr>
+            <th>Task</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Example Task</td>
+            <td>Pending</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+  </div>
+
+  <footer>
+    &copy; 2025 ToDo App
+  </footer>
+
+</body>
+</html>
