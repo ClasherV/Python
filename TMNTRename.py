@@ -1,1 +1,1 @@
-lst=["1. Rise of the Turtles - Part 1","2. Rise of the Turtles - Part 2"]
+lst=["1. Rise of the Turtles - Part 1","2. Rise of the Turtles - Part 2","3. Turtle Temper"]
